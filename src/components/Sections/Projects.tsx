@@ -7,9 +7,7 @@ interface Project {
   description: string;
   image: string;
   tags: string[];
-  liveUrl?: string;
-  repoUrl?: string;
-  featured: boolean;
+ 
 }
 
 const projects: Project[] = [
@@ -19,9 +17,7 @@ const projects: Project[] = [
     description: 'A full-featured e-commerce platform built with React, Node.js, and MongoDB. Includes user authentication, product catalog, shopping cart, and payment processing.',
     image: 'https://plus.unsplash.com/premium_photo-1661769577787-9811af17f98d?q=80&w=1953&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     tags: ['React', 'Node.js', 'MongoDB', 'Express'],
-    liveUrl: '#',
-    repoUrl: '#',
-    featured: true,
+  
   },
   {
     id: 2,
@@ -29,9 +25,7 @@ const projects: Project[] = [
     description: 'A productivity app that helps users organize tasks, set priorities, and track progress. Features drag-and-drop functionality and reminder notifications.',
     image: 'https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['React', 'Firebase', 'Tailwind CSS'],
-    liveUrl: '#',
-    repoUrl: '#',
-    featured: true,
+   
   },
   {
     id: 3,
@@ -39,9 +33,7 @@ const projects: Project[] = [
     description: 'A weather application that provides current conditions and forecasts. Utilizes a weather API and features responsive design for all devices.',
     image: 'https://images.pexels.com/photos/2448749/pexels-photo-2448749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['JavaScript', 'API Integration', 'CSS3'],
-    liveUrl: '#',
-    repoUrl: '#',
-    featured: false,
+
   },
   {
     id: 4,
@@ -49,9 +41,7 @@ const projects: Project[] = [
     description: 'A personal portfolio website showcasing projects and skills. Features a clean, modern design with smooth animations and responsive layout.',
     image: 'https://images.pexels.com/photos/196646/pexels-photo-196646.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     tags: ['React', 'TypeScript', 'Tailwind CSS'],
-    liveUrl: '#',
-    repoUrl: '#',
-    featured: false,
+  
   },
   {
     id: 5,
@@ -69,9 +59,7 @@ const projects: Project[] = [
     description: 'A content management system for bloggers. Includes features for creating, editing, and publishing articles with markdown support.',
     image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     tags: ['React', 'Node.js', 'PostgreSQL'],
-    liveUrl: '#',
-    repoUrl: '#',
-    featured: false,
+   
   },
  
 ];
