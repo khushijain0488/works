@@ -11,7 +11,7 @@ import './styles/animations.css';
 function App() {
   useEffect(() => {
     // Update the document title
-    document.title = 'Your Name | Portfolio';
+    document.title = 'Khushi Jain | Portfolio';
   }, []);
 
   return (
